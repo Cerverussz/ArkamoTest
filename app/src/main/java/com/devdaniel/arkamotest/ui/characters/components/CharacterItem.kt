@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -26,6 +27,7 @@ fun CharacterItem(
         horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         CharacterAvatar(
+            modifier = Modifier.size(64.dp),
             imageUrl = character.image,
             contentDescription = character.name,
         )
