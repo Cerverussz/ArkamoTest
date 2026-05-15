@@ -18,10 +18,11 @@ import com.devdaniel.arkamotest.ui.characters.state.CharactersUiState
 
 @Composable
 fun CharactersScreen(
+    modifier: Modifier = Modifier,
     viewModel: CharactersViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
-    Box(Modifier.fillMaxSize()) {
+    Box(modifier.fillMaxSize()) {
         when (val s = state) {
             CharactersUiState.Loading -> LoadingContent()
             is CharactersUiState.Success -> CharactersList(s.characters)

@@ -123,7 +123,6 @@ Stack de testing: MockK + `kotlinx-coroutines-test` (`StandardTestDispatcher` + 
 - Tests del `CharactersRepositoryImpl` (wrapper trivial sobre Retrofit + mapper).
 - Dark mode personalizado (se usa el default de Material 3).
 - Internacionalización (strings en español hardcodeadas).
-- Manejo de insets para edge-to-edge (la lista dibuja bajo las status/nav bars).
 
 ## Qué mejoraría con más tiempo
 
@@ -134,7 +133,6 @@ Stack de testing: MockK + `kotlinx-coroutines-test` (`StandardTestDispatcher` + 
 - Test del `CharactersRepositoryImpl` con un `MockWebServer` (verifica el flujo Retrofit + Serialization + mapper completo).
 - CI con GitHub Actions: build + tests + ktlint en cada PR.
 - Animaciones de entrada para items de la lista.
-- Manejo de insets adecuado (`WindowInsets.systemBars`).
 
 ## Uso de IA
 
