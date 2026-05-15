@@ -1,8 +1,8 @@
-# Arkamo — Rick & Morty Character List
+# Arkano — Rick & Morty Character List
 
 App Android que consume la [Rick & Morty API](https://rickandmortyapi.com/api) y muestra una lista de personajes con manejo explícito de estados (Loading / Success / Error + Retry).
 
-Prueba técnica para Arkamo (Android Developer). Ver [docs/specs/2026-05-15-arkamo-rickmorty-design.md](docs/specs/2026-05-15-arkamo-rickmorty-design.md) para el diseño detallado y [docs/plans/2026-05-15-arkamo-rickmorty.md](docs/plans/2026-05-15-arkamo-rickmorty.md) para el plan de implementación paso a paso.
+Prueba técnica para Arkano (Android Developer). Ver [docs/specs/2026-05-15-arkamo-rickmorty-design.md](docs/specs/2026-05-15-arkamo-rickmorty-design.md) para el diseño detallado y [docs/plans/2026-05-15-arkamo-rickmorty.md](docs/plans/2026-05-15-arkamo-rickmorty.md) para el plan de implementación paso a paso.
 
 ## Stack
 
